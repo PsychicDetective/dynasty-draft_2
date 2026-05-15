@@ -1,0 +1,46 @@
+{
+  "name": "dynasty-draft",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "highlights:add": "tsx scripts/add-highlight.ts",
+    "highlights:list": "tsx scripts/list-highlights.ts",
+    "highlights:verify": "tsx scripts/verify-highlights.ts"
+  },
+  "dependencies": {
+    "@vercel/kv": "^2.0.0",
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.2.0",
+    "lucide-react": "^0.383.0",
+    "next": "14.2.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "react-player": "^3.4.0",
+    "react-text-to-speech": "^5.1.9",
+    "react-youtube": "^10.1.0",
+    "swr": "^2.2.5",
+    "tailwind-merge": "^2.3.0",
+    "zustand": "^4.5.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^29",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.0.1",
+    "jest": "^29",
+    "jest-environment-node": "^29",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "tsx": "^4.7.0",
+    "typescript": "^5"
+  }
+}
